@@ -1,0 +1,481 @@
+{
+  "Chinese Menu": [
+    {
+        "img": "Images/Menu-Page/Chinese/Chilly-Chicken.avif",
+        "food-title": "Chilly Chicken",
+        "food-price": "170"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Manchurian-Chicken.avif",
+        "food-title": "Manchurian Chicken",
+        "food-price": "180"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Dragon-Chicken.jpg",
+        "food-title": "Dragon Chicken",
+        "food-price": "185"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Pepper-Chicken.webp",
+        "food-title": "Pepper Chicken",
+        "food-price": "170"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Lollipop-Chicken.avif",
+        "food-title": "Lollipop Chicken",
+        "food-price": "180"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Lollipop-65.jpg",
+        "food-title": "Lollipop 65 (5 Pieces)",
+        "food-price": "170"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Garlic-Chicken.avif",
+        "food-title": "Garlic Chicken",
+        "food-price": "180"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Ginger-Chicken.avif",
+        "food-title": "Ginger Chicken",
+        "food-price": "185"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Orange-Chicken.jpg",
+        "food-title": "Orange Chicken",
+        "food-price": "190"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Fish-Finger.avif",
+        "food-title": "Fish Finger (5 Pieces)",
+        "food-price": "240"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Fish-Manchurian.jpg",
+        "food-title": "Fish Manchurian",
+        "food-price": "245"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Chilly-Fish.avif",
+        "food-title": "Chilly Fish",
+        "food-price": "260"
+      },
+      {
+        "img": "Images/Menu-Page/Chinese/Crab-Lollipop.jpg",
+        "food-title": "Crab Lollipop (5 Pieces)",
+        "food-price": "210"
+      }
+  ],
+
+  "Fried Rice": [
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Chicken-Rice.jpg",
+      "food-title": "Chicken Rice",
+      "food-price": "160"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Mutton-Rice.webp",
+      "food-title": "Mutton Rice",
+      "food-price": "195"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Prawn-Rice.avif",
+      "food-title": "Prawn Rice",
+      "food-price": "195"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Egg-Rice.avif",
+      "food-title": "Egg Rice",
+      "food-price": "110"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Schezwan-Rice.avif",
+      "food-title": "Schezwan Rice",
+      "food-price": "170"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Singapore-Rice.avif",
+      "food-title": "Singapore Rice",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Mixed-Rice.jpg",
+      "food-title": "Mixed Rice",
+      "food-price": "220"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Mutton-Schezwan-Rice.jpg",
+      "food-title": "Mutton Schezwan Rice",
+      "food-price": "210"
+    },
+    {
+      "img": "Images/Menu-Page/Fried-Rice/Prawn-Schezwan-Rice.avif",
+      "food-title": "Prawn Schezwan Rice",
+      "food-price": "210"
+    }
+  ],
+
+  "Biriyani": [
+    {
+      "img": "Images/Menu-Page/Biriyani/Fried-Chicken-Biriyani.avif",
+      "food-title": "Fried Chicken Biriyani",
+      "food-price": "220"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/65-Biriyani.webp",
+      "food-title": "65 Biriyani",
+      "food-price": "170"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Lollipop-Biriyani.avif",
+      "food-title": "Lollipop Biriyani",
+      "food-price": "180"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Prawn-Biriyani.avif",
+      "food-title": "Prawn Biriyani",
+      "food-price": "220"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Fish-Biriyani.jpg",
+      "food-title": "Fish Biriyani",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Egg-Biriyani.jpg",
+      "food-title": "Egg Biriyani",
+      "food-price": "100"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Plain-Biriyani.webp",
+      "food-title": "Plain Biriyani",
+      "food-price": "80"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Dum-Biriyani.webp",
+      "food-title": "Dum Biriyani",
+      "food-price": "140"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Special-Kerala-Biriyani.jpg",
+      "food-title": "Special Kerala Biriyani",
+      "food-price": "170"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Mutton-Biriyani.jpg",
+      "food-title": "Mutton Biriyani",
+      "food-price": "230"
+    }
+  ],
+
+  "Indian Menu - Chicken": [
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Chettinadu-Chicken.jpg",
+      "food-title": "Chettinadu Chicken",
+      "food-price": "185"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Pallipalayam-Chicken.jpg",
+      "food-title": "Pallipalayam Chicken",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Punjabi-Chicken.png",
+      "food-title": "Punjabi Chicken",
+      "food-price": "185"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Hyderabad-Chicken.jpg",
+      "food-title": "Hyderabad Chicken",
+      "food-price": "185"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Kerala-Chicken.webp",
+      "food-title": "Kerala Chicken",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Andhra-Chicken.jpg",
+      "food-title": "Andhra Chicken",
+      "food-price": "175"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Chicken-Thopiahji.jpg",
+      "food-title": "Chicken Thopiahji",
+      "food-price": "210"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Black-Pepper-Chicken.jpg",
+      "food-title": "Black Pepper Chicken",
+      "food-price": "210"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Chicken-Rowan.avif",
+      "food-title": "Chicken Rowan",
+      "food-price": "220"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Butter-Chicken.jpg",
+      "food-title": "Butter Chicken",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Kadai-Chicken.jpg",
+      "food-title": "Kadai Chicken",
+      "food-price": "185"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Mughalaya-Chicken.avif",
+      "food-title": "Mughalaya Chicken",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Tidel-Special-Chicken-Gravy.jpg",
+      "food-title": "Tidel Special Chicken Gravy",
+      "food-price": "240"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Chicken-Gravy-Curry.jpg",
+      "food-title": "Chicken Gravy/Curry",
+      "food-price": "180"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Egg-Masala.jpg",
+      "food-title": "Egg Masala",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/IndianMenu-Chicken/Chicken-Tikka-Masala.avif",
+      "food-title": "Chicken Tikka Masala (4 pieces)",
+      "food-price": "220"
+    }
+  ],
+
+  "Mutton": [
+    {
+      "img": "Images/Menu-Page/Mutton/Mutton-Rowan.jpg",
+      "food-title": "Mutton Rowan",
+      "food-price": "290"
+    },
+    {
+      "img": "Images/Menu-Page/Mutton/Kadai-Mutton.jpg",
+      "food-title": "Kadai Mutton",
+      "food-price": "280"
+    },
+    {
+      "img": "Images/Menu-Page/Mutton/Mutton-Gravy-Curry.jpg",
+      "food-title": "Mutton Gravy/Curry",
+      "food-price": "245"
+    },
+    {
+      "img": "Images/Menu-Page/Mutton/Mutton-Pepper-Fry.webp",
+      "food-title": "Mutton Pepper Fry",
+      "food-price": "245"
+    },
+    {
+      "img": "Images/Menu-Page/Mutton/Mutton-Pepper-Gravy.jpg",
+      "food-title": "Mutton Pepper Gravy",
+      "food-price": "265"
+    },
+    {
+      "img": "Images/Menu-Page/Mutton/Chettinadu-Mutton.webp",
+      "food-title": "Chettinadu Mutton",
+      "food-price": "285"
+    }
+  ],
+
+  "Prawn": [
+    {
+      "img": "Images/Menu-Page/Prawn/Kadai-Prawn.jpg",
+      "food-title": "Kadai Prawn",
+      "food-price": "210"
+    },
+    {
+      "img": "Images/Menu-Page/Prawn/Prawn-Gravy.webp",
+      "food-title": "Prawn Gravy",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/Prawn/Chettinadu-Prawn.webp",
+      "food-title": "Chettinadu Prawn",
+      "food-price": "200"
+    }
+  ],
+
+  "Veg": [
+    {
+      "img": "Images/Menu-Page/Veg/Paneer-Manchurian.jpg",
+      "food-title": "Paneer Manchurian",
+      "food-price": "150"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Chilly-Mushroom.webp",
+      "food-title": "Chilly Mushroom",
+      "food-price": "140"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Chilly-Paneer.jpg",
+      "food-title": "Chilly Paneer",
+      "food-price": "150"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Mushroom-Manchurian.webp",
+      "food-title": "Mushroom Manchurian",
+      "food-price": "145"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Babycorn-Manchurian.jpg",
+      "food-title": "Babycorn Manchurian",
+      "food-price": "145"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Paneer-Butter-Masala.jpg",
+      "food-title": "Paneer Butter Masala",
+      "food-price": "180"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Kadai-Paneer.avif",
+      "food-title": "Kadai Paneer",
+      "food-price": "175"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Paneer-65.jpg",
+      "food-title": "Paneer 65",
+      "food-price": "145"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Dragon-Paneer.jpg",
+      "food-title": "Dragon Paneer",
+      "food-price": "175"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Gobi-Manchurian.jpg",
+      "food-title": "Gobi Manchurian",
+      "food-price": "140"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Gobi-65.jpg",
+      "food-title": "Gobi 65",
+      "food-price": "120"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Veg-Kuruma.jpg",
+      "food-title": "Veg Kuruma",
+      "food-price": "160"
+    },
+    {
+      "img": "Images/Menu-Page/Veg/Mix-Veg-Masala.jpg",
+      "food-title": "Mix Veg Masala",
+      "food-price": "175"
+    }
+  ],
+
+  "Veg Rice": [
+    {
+      "img": "Images/Menu-Page/veg-Rice/Paneer-Rice.jpg",
+      "food-title": "Paneer Rice",
+      "food-price": "140"
+    },
+    {
+      "img": "Images/Menu-Page/veg-Rice/Paneer-Schezwan-Rice.jpg",
+      "food-title": "Paneer Schezwan Rice",
+      "food-price": "150"
+    },
+    {
+      "img": "Images/Menu-Page/veg-Rice/Mushroom-Rice.webp",
+      "food-title": "Mushroom Rice",
+      "food-price": "130"
+    },
+    {
+      "img": "Images/Menu-Page/veg-Rice/Mushroom-Schezwan-Rice.jpg",
+      "food-title": "Mushroom Schezwan Rice",
+      "food-price": "140"
+    },
+    {
+      "img": "Images/Menu-Page/veg-Rice/Mixed-Veg-Rice.png",
+      "food-title": "Mixed Veg Rice",
+      "food-price": "150"
+    },
+    {
+      "img": "Images/Menu-Page/veg-Rice/Gobi-Rice.jpg",
+      "food-title": "Gobi Rice",
+      "food-price": "130"
+    },
+    {
+      "img": "Images/Menu-Page/veg-Rice/Ghee-Rice.jpg",
+      "food-title": "Ghee Rice",
+      "food-price": "100"
+    },
+    {
+      "img": "Images/Menu-Page/veg-Rice/Jeera-Rice.jpg",
+      "food-title": "Jeera Rice",
+      "food-price": "100"
+    }
+  ],
+
+  "Non-Veg Soup": [
+    {
+      "img": "Images/Menu-Page/Non-Veg-Soup/Chicken-Clear-Soup.jpg",
+      "food-title": "Chicken Clear Soup",
+      "food-price": "90"
+    },
+    {
+      "img": "Images/Menu-Page/Non-Veg-Soup/Hot-and-Sour-Chicken-Soup.jpg",
+      "food-title": "Hot and Sour Chicken Soup",
+      "food-price": "120"
+    },
+    {
+      "img": "Images/Menu-Page/Non-Veg-Soup/Sweet-Corn-Chicken-Soup.avif",
+      "food-title": "Sweet Corn Chicken Soup",
+      "food-price": "130"
+    },
+    {
+      "img": "Images/Menu-Page/Non-Veg-Soup/Chicken-Manchow-Soup.jpg",
+      "food-title": "Chicken Manchow Soup",
+      "food-price": "145"
+    },
+    {
+      "img": "Images/Menu-Page/Non-Veg-Soup/Cream-of-Chicken-Soup.jpg",
+      "food-title": "Cream of Chicken Soup",
+      "food-price": "150"
+    },
+    {
+      "img": "Images/Menu-Page/Non-Veg-Soup/Mutton-Soup.avif",
+      "food-title": "Mutton Soup",
+      "food-price": "145"
+    }
+  ],
+
+  "Veg Soup": [
+    {
+      "img": "Images/Menu-Page/Veg-Soup/Veg-Clear-Soup.jpg",
+      "food-title": "Veg Clear Soup",
+      "food-price": "80"
+    },
+    {
+      "img": "Images/Menu-Page/Veg-Soup/Veg-Soup.jpg",
+      "food-title": "Veg Soup",
+      "food-price": "90"
+    },
+    {
+      "img": "Images/Menu-Page/Veg-Soup/Sweet-Corn-Veg-Soup.jpg",
+      "food-title": "Sweet Corn Veg Soup",
+      "food-price": "110"
+    },
+    {
+      "img": "Images/Menu-Page/Veg-Soup/French-Onion-Veg-Soup.jpg",
+      "food-title": "French Onion Veg Soup",
+      "food-price": "120"
+    },
+    {
+      "img": "Images/Menu-Page/Veg-Soup/Veg-Manchow-Soup.jpg",
+      "food-title": "Veg Manchow Soup",
+      "food-price": "120"
+    },
+    {
+      "img": "Images/Menu-Page/Veg-Soup/Mushroom-Soup.jpg",
+      "food-title": "Mushroom Soup",
+      "food-price": "110"
+    }
+  ]
+}

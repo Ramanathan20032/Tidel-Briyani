@@ -85,3 +85,45 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });  
+
+
+// ! --------------------------------------------------------------------------------
+// ! Dynamic Menu Fetching
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("menu-data.json")
+      .then(response => response.json())
+      .then(data => {
+          const menuContainer = document.querySelector(".menu-container");
+
+          let menuHTML = ""; // Store the full menu structure here
+
+          for (const category in data) {
+              let categoryHTML = `
+                  <h2 class="menu-title text-center">${category}</h2>
+                  <div class="row align-items-center">  
+              `;
+              // Open the row div
+
+              data[category].forEach(item => {
+                  categoryHTML += `
+                      <div class="col-12 col-md-6">
+                          <div class="food-card">
+                              <div class="food-info">
+                                  <img src="${item.img}" alt="${item['food-title']}">
+                                  <div class="food-title">${item['food-title']}</div>
+                              </div>
+                              <div class="food-price">$${item['food-price']}</div>
+                          </div>
+                      </div>
+                  `;
+              });
+
+              categoryHTML += `</div>`; // Close the row div
+              menuHTML += categoryHTML; // Append category block to menuHTML
+          }
+
+          // Inject the final HTML into the menu container
+          menuContainer.innerHTML = menuHTML;
+      })
+      .catch(error => console.error("Error loading menu data:", error));
+});

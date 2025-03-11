@@ -325,7 +325,7 @@ a {
     padding: 16px 0;
   }
   .z-navbar .nav-container .logo img{
-    width: 130px;
+    width: 110px;
   }
 }
 
@@ -535,7 +535,7 @@ a {
     width: 290px;
   }
   .side-nav .side-nav-container .img-cross .logo img{
-    width: 130px;
+    width: 120px;
   }
   .side-nav .side-nav-container .side-nav-contact-us .heading{
     font-size: 20px;
@@ -547,7 +547,7 @@ a {
 /* ! banner */
 .banner-wrapper{
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-              url(Images/gourmet-biryani-with-saffron-rice-chicken-generated-by-ai.jpg) 
+              url(Images/banner-page.jpg) 
               no-repeat center center;
   background-size: cover; 
   height: 82vh;
@@ -1361,7 +1361,7 @@ a {
 }
 
 .Powered-wrapper .contact-info {
-  padding: 40px 0;
+  padding: 55px 0;
 }
 
 .Powered-wrapper .info {
@@ -1375,7 +1375,7 @@ a {
 }
 
 .Powered-wrapper .info p {
-  font-family: var(--Lato-font);
+  font-family: var(--Righteous-font);
   color: var(--white-color);
   letter-spacing: 3px;
   font-size: 20px;
@@ -1494,6 +1494,9 @@ a {
 }
 
 @media screen and (max-width: 576px) {
+  .Powered-wrapper .contact-info {
+    padding: 50px 0;
+  }
   .Powered-wrapper .logo-container img {
     width: 115px;
   }
@@ -1543,6 +1546,9 @@ a {
   font-size: 16px;
   font-family: var(--Lato-font);
   letter-spacing: 2px;
+}
+.copy-right .footer-text{
+  line-height: 1.4;
 }
 .copy-right .footer-text-logo a{
   color: var(--secondary-color);
@@ -1595,7 +1601,7 @@ a {
   background-color: var(--secondary-color); 
   color: var(--white-color);
   cursor: pointer;
-  z-index: 9999;
+  z-index: 18;
   transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
 }
 
