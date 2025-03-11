@@ -231,18 +231,18 @@ lightbox.addEventListener("click", (e) => {
 document.addEventListener('DOMContentLoaded', function () {
   const testimonials = [
     {
-        content: `Hands down the best biryani spot in Chennai! The dum biryani and kebabs are phenomenal. A must-visit if you're near Edison.  
+        content: `Hands down the best biriyani spot in Chennai! The dum biriyani and kebabs are phenomenal. A must-visit if you're near Edison.  
                   The service is super fast and efficient. The aroma is irresistible, and the taste is simply out of this world. Highly recommend this place!`,
         name: `Shravankumar Hiregoudar`
     },
     {
-        content: `Incredible biryani flavors! The texture, spices, and tenderness of the meat are outstanding. Even with a full house, our meals were served quickly.  
+        content: `Incredible biriyani flavors! The texture, spices, and tenderness of the meat are outstanding. Even with a full house, our meals were served quickly.  
                   Special thanks to Rajesh for his polite and prompt service. This place truly deserves five stars. Will surely visit again for a great meal.`,
         name: `Suhas Biwalkar`
     },
     {
-        content: `This place is fantastic! They offer a huge variety of biryanis, and every dish is packed with authentic flavors.  
-                  I personally love their Hyderabadi and Lucknowi biryanis. If you’re a biryani lover, I highly recommend this restaurant to everyone.`,
+        content: `This place is fantastic! They offer a huge variety of biriyani, and every dish is packed with authentic flavors.  
+                  I personally love their Hyderabadi and Lucknowi biriyani. If you’re a biriyani lover, I highly recommend this restaurant to everyone.`,
         name: `Om Sonani`
     }
 ];
