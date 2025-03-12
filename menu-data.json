@@ -1,5 +1,58 @@
 {
-  "Chinese Menu": [
+  "Biriyani": [
+    {
+      "img": "Images/Menu-Page/Biriyani/Fried-Chicken-Biriyani.avif",
+      "food-title": "Fried Chicken Biriyani",
+      "food-price": "220"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/65-Biriyani.webp",
+      "food-title": "65 Biriyani",
+      "food-price": "170"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Lollipop-Biriyani.avif",
+      "food-title": "Lollipop Biriyani",
+      "food-price": "180"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Prawn-Biriyani.avif",
+      "food-title": "Prawn Biriyani",
+      "food-price": "220"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Fish-Biriyani.jpg",
+      "food-title": "Fish Biriyani",
+      "food-price": "190"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Egg-Biriyani.jpg",
+      "food-title": "Egg Biriyani",
+      "food-price": "100"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Plain-Biriyani.webp",
+      "food-title": "Plain Biriyani",
+      "food-price": "80"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Dum-Biriyani.webp",
+      "food-title": "Dum Biriyani",
+      "food-price": "140"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Special-Kerala-Biriyani.jpg",
+      "food-title": "Special Kerala Biriyani",
+      "food-price": "170"
+    },
+    {
+      "img": "Images/Menu-Page/Biriyani/Mutton-Biriyani.jpg",
+      "food-title": "Mutton Biriyani",
+      "food-price": "230"
+    }
+  ],
+
+  "Chinese": [
     {
         "img": "Images/Menu-Page/Chinese/Chilly-Chicken.avif",
         "food-title": "Chilly Chicken",
@@ -115,60 +168,7 @@
     }
   ],
 
-  "Biriyani": [
-    {
-      "img": "Images/Menu-Page/Biriyani/Fried-Chicken-Biriyani.avif",
-      "food-title": "Fried Chicken Biriyani",
-      "food-price": "220"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/65-Biriyani.webp",
-      "food-title": "65 Biriyani",
-      "food-price": "170"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Lollipop-Biriyani.avif",
-      "food-title": "Lollipop Biriyani",
-      "food-price": "180"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Prawn-Biriyani.avif",
-      "food-title": "Prawn Biriyani",
-      "food-price": "220"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Fish-Biriyani.jpg",
-      "food-title": "Fish Biriyani",
-      "food-price": "190"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Egg-Biriyani.jpg",
-      "food-title": "Egg Biriyani",
-      "food-price": "100"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Plain-Biriyani.webp",
-      "food-title": "Plain Biriyani",
-      "food-price": "80"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Dum-Biriyani.webp",
-      "food-title": "Dum Biriyani",
-      "food-price": "140"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Special-Kerala-Biriyani.jpg",
-      "food-title": "Special Kerala Biriyani",
-      "food-price": "170"
-    },
-    {
-      "img": "Images/Menu-Page/Biriyani/Mutton-Biriyani.jpg",
-      "food-title": "Mutton Biriyani",
-      "food-price": "230"
-    }
-  ],
-
-  "Indian Menu - Chicken": [
+  "Indian Chicken": [
     {
       "img": "Images/Menu-Page/IndianMenu-Chicken/Chettinadu-Chicken.jpg",
       "food-title": "Chettinadu Chicken",
@@ -302,7 +302,7 @@
     }
   ],
 
-  "Veg": [
+  "Veg - Starters": [
     {
       "img": "Images/Menu-Page/Veg/Paneer-Manchurian.jpg",
       "food-title": "Paneer Manchurian",

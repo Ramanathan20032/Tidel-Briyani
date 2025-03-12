@@ -27,6 +27,8 @@ html{
 
 a {
   text-decoration: none;
+  scroll-behavior: smooth;
+  transition: color 0.3s ease-in-out;
 }
 
 .highlight-text{

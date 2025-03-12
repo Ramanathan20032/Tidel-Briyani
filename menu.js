@@ -11,6 +11,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
+
 // ! -------------------------------------------------------------------------
 // ! SIDE NAV Functionality /
 const sidebarIcon = document.querySelector(".hamburger");
@@ -67,7 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   window.addEventListener("scroll", () => {
-  //   console.log("Current Scroll Position (window.scrollY):", window.scrollY); 
     if (window.scrollY >= 120) {  // Ensure visibility after 120px
       pageUp.classList.add("show");
       // console.log("page-up is now visible!"); 
@@ -87,43 +87,137 @@ document.addEventListener("DOMContentLoaded", () => {
 });  
 
 
-// ! --------------------------------------------------------------------------------
-// ! Dynamic Menu Fetching
+// !--------------------------------------------------------------------------------
+// ! Dynamic Menu
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("menu-data.json")
-      .then(response => response.json())
-      .then(data => {
-          const menuContainer = document.querySelector(".menu-container");
+  let menuData = null;
+    const menuContainer = document.querySelector(".menu-container");
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const dropdownBtn = document.querySelector(".filter-dropdown-btn");
+    const dropdownContent = document.querySelector(".filter-dropdown-content");
+    const dropdownItems = document.querySelectorAll(".dropdown-item");
 
-          let menuHTML = ""; // Store the full menu structure here
 
-          for (const category in data) {
-              let categoryHTML = `
-                  <h2 class="menu-title text-center">${category}</h2>
-                  <div class="row align-items-center">  
-              `;
-              // Open the row div
+    // Fetch menu data
+    fetch("menu-data.json")
+        .then(response => response.json())
+        .then(data => {
+            menuData = data;
+            displayMenuItems("all");
+        })
+        .catch(error => console.error("Error loading menu data:", error));
 
-              data[category].forEach(item => {
-                  categoryHTML += `
-                      <div class="col-12 col-md-6">
-                          <div class="food-card">
-                              <div class="food-info">
-                                  <img src="${item.img}" alt="${item['food-title']}">
-                                  <div class="food-title">${item['food-title']}</div>
-                              </div>
-                              <div class="food-price">$${item['food-price']}</div>
-                          </div>
-                      </div>
-                  `;
-              });
 
-              categoryHTML += `</div>`; // Close the row div
-              menuHTML += categoryHTML; // Append category block to menuHTML
+    // Function to scroll to menu title
+    function scrollToMenuTitle() {
+        setTimeout(() => {
+            const menuTitle = document.querySelector(".menu-title");
+            if (menuTitle) {
+                const filterSection = document.querySelector(".filter-section");
+                const filterHeight = filterSection.offsetHeight;
+                const offset = 165; // Adjust this value based on your needs
+
+                window.scrollTo({
+                    top: menuTitle.offsetTop - filterHeight - offset,
+                    behavior: "smooth"
+                });
+            }
+        }, 100); // Small delay to ensure content is rendered
+    }
+
+
+    // Desktop filter buttons
+    filterBtns.forEach(btn => {
+        btn.addEventListener("click", function() {
+            filterBtns.forEach(btn => btn.classList.remove("active"));
+            this.classList.add("active");
+            const category = this.dataset.category;
+            displayMenuItems(category);
+            scrollToMenuTitle();
+        });
+    });
+
+
+    // Mobile dropdown toggle
+    dropdownBtn.addEventListener("click", function() {
+        dropdownContent.classList.toggle("show");
+        this.classList.toggle("active");
+    });
+
+
+    // Close dropdown when clicking outside
+    window.addEventListener("click", function(e) {
+        if (!e.target.closest(".filter-dropdown")) {
+            dropdownContent.classList.remove("show");
+            dropdownBtn.classList.remove("active");
+        }
+    });
+
+
+    // Dropdown items
+    dropdownItems.forEach(item => {
+        item.addEventListener("click", function() {
+            const category = this.dataset.category;
+            dropdownItems.forEach(item => item.classList.remove("active"));
+            this.classList.add("active");
+            
+            // Update dropdown button text
+            dropdownBtn.querySelector("span").textContent = this.textContent;
+            
+            // Close dropdown
+            dropdownContent.classList.remove("show");
+            dropdownBtn.classList.remove("active");
+            
+            // Display filtered items and scroll
+            displayMenuItems(category);
+            scrollToMenuTitle();
+        });
+    });
+
+
+  // Function to display menu items
+  function displayMenuItems(category) {
+      let menuHTML = "";
+
+      if (category === "all") {
+          // Display all categories
+          for (const categoryName in menuData) {
+              menuHTML += generateCategoryHTML(categoryName, menuData[categoryName]);
           }
+      } else {
+          // Display single category
+          const categoryItems = menuData[category];
+          if (categoryItems) {
+              menuHTML = generateCategoryHTML(category, categoryItems);
+          }
+      }
 
-          // Inject the final HTML into the menu container
-          menuContainer.innerHTML = menuHTML;
-      })
-      .catch(error => console.error("Error loading menu data:", error));
+      menuContainer.innerHTML = menuHTML;
+  }
+
+
+  // Helper function to generate HTML for a category
+  function generateCategoryHTML(categoryName, items) {
+      let categoryHTML = `
+          <h2 class="menu-title text-center">${categoryName}</h2>
+          <div class="row align-items-center">
+      `;
+
+      items.forEach(item => {
+          categoryHTML += `
+              <div class="col-12 col-md-6">
+                  <div class="food-card">
+                      <div class="food-info">
+                          <img src="${item.img}" alt="${item['food-title']}">
+                          <div class="food-title">${item['food-title']}</div>
+                      </div>
+                      <div class="food-price">$${item['food-price']}</div>
+                  </div>
+              </div>
+          `;
+      });
+
+      categoryHTML += `</div>`;
+      return categoryHTML;
+  }
 });
